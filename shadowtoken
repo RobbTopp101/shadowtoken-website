@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowToken ($SHDW)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: #eaeaea;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(45deg, #000000, #222831);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #8c52ff;
+            text-shadow: 0px 0px 20px #8c52ff;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 5px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 15px 30px;
+            background: #8c52ff;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0px 0px 10px #8c52ff;
+            transition: transform 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: scale(1.1);
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            color: #8c52ff;
+            text-shadow: 0px 0px 15px #8c52ff;
+        }
+        .tokenomics, .roadmap {
+            background: #222831;
+            margin: 20px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(140, 82, 255, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000000;
+            color: #8c52ff;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #8c52ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ShadowToken</h1>
+        <p>Join the mysterious revolution of $SHDW and step into the unknown.</p>
+        <a href="#" class="cta-button">Get $SHDW Now</a>
+    </header>
+
+    <section id="about">
+        <h2>About ShadowToken</h2>
+        <p>ShadowToken ($SHDW) emerged from the depths of the blockchain, shrouded in mystery. No one knows where it came from, but everyone wants to be part of it. Will you unravel the shadow, or will the shadow unravel you?</p>
+    </section>
+
+    <section id="tokenomics" class="tokenomics">
+        <h2>Tokenomics</h2>
+        <p>Total Supply: 1,000,000,000 SHDW</p>
+        <p>Initial Burn: 50%</p>
+        <p>Community Distribution: 40%</p>
+        <p>Development Fund: 10%</p>
+    </section>
+
+    <section id="roadmap" class="roadmap">
+        <h2>Roadmap</h2>
+        <ul>
+            <li><strong>Phase 1:</strong> Out of the Shadows</li>
+            <li><strong>Phase 2:</strong> Eclipse of Memes</li>
+            <li><strong>Phase 3:</strong> World Domination?</li>
+        </ul>
+    </section>
+
+    <section id="community">
+        <h2>Join the Community</h2>
+        <p>Become part of the legend. Join us on:</p>
+        <a href="https://twitter.com" target="_blank" class="cta-button">Twitter</a>
+        <a href="https://discord.com" target="_blank" class="cta-button">Discord</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ShadowToken. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
